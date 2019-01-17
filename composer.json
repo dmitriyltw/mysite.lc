@@ -1,0 +1,19 @@
+{
+  "name":"mysite",
+  "description":"",
+  "type":"project",
+  "version":"1.0.0",
+  "autoload":{
+    "psr-4":{
+      "Project\\":""
+    },
+    "psr-0":{
+      "":[
+        "app/code/"
+      ]
+    }
+  },
+  "require": {
+    "monolog/monolog": "^1.24"
+  }
+}
